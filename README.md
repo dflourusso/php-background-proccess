@@ -12,6 +12,13 @@ $bg = new BackgroundProccess('teste', __DIR__ . '/tmp/background-proccess');
 $bg->run(__DIR__ . '/bin/test_bg_task.php');
 ```
 
+**Avaliable methods**
+
+ - run
+ - isRunning
+ - stop
+ - getPid
+
 ### Authors
 
 - [Daniel Fernando Lourusso](http://dflourusso.com.br)
