@@ -9,7 +9,7 @@
 ```php
 $bg = new BackgroundProccess('teste', __DIR__ . '/tmp/background-proccess');
 
-var_export($bg->run(__DIR__ . '/bin/test_bg_task.php'));
+$bg->run(__DIR__ . '/bin/test_bg_task.php');
 ```
 
 ### Authors
